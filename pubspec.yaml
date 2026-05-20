@@ -1,0 +1,46 @@
+name: coffee_delivery
+description: Premium animated coffee delivery app UI
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Smooth page transitions & hero animations
+  animations: ^2.0.11
+
+  # Lottie animation support (optional — used for splash)
+  lottie: ^3.1.0
+
+  # Blur effects
+  flutter_animate: ^4.5.0
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ─── ASSET FOLDERS ─────────────────────────────────
+  # Create these folders in your project root and drop
+  # the images inside them.
+  #
+  #   assets/images/   → coffee product images (PNG/JPG)
+  #   assets/icons/    → any custom icons (SVG/PNG)
+  #
+  # The app uses network images as fallback so it runs
+  # even without local assets.
+  # ────────────────────────────────────────────────────
+  assets:
+    - assets/images/
+    - assets/icons/
